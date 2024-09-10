@@ -4,7 +4,10 @@
 // 1. declaration    let x ;
 // 2. assignment     x = 100
 
-let x;
-x = 120;
+let x = 230;
 
 console.log("x");
+
+let age = 25;
+
+console.log(`age`)
