@@ -6,8 +6,8 @@
 
 let x = 230;
 
-console.log("x");
+console.log(x);
 
 let age = 25;
 
-console.log(`age`)
+console.log(age)
