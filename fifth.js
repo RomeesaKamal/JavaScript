@@ -10,4 +10,16 @@ console.log(x);
 
 let age = 25;
 
-console.log(age)
+console.log(age);
+
+Fullname = "Romeesa Kamal";
+console.log(Fullname);
+x = null;
+y = undefined;
+console.log(x)
+console.log(y)
+
+{
+    let a = 5
+    console.log(a)
+}
