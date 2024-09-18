@@ -95,13 +95,99 @@
 // 3. logical not (!)
 
 
-let a = 5;
-let b = 4;
-let cond1 = a>b;
-let cond2 = a===b;
-console.log(cond1 && cond2);
+// let a = 5;
+// let b = 4;
+// let cond1 = a < b;
+// let cond2 = a === 6;
+// console.log(cond1 && cond2);
+// console.log(cond1 || cond2);
+// console.log(!(a<b));
+// console.log(!(a>b));
+
+//Conditional statement
+
+// let age = 16
+
+// if (age >= 18) {
+//   console.log("vote can be")
+// }
+
+// if (age < 18) {
+//   console.log("you cannot vote")
+// }
+
+// let mode = "white";
+// let color;
+
+// if (mode === "dark") {
+//   color = "black";
+// }
+// if (mode === "light") {
+  // color = "white";
+// }
+// else {
+  // color = "white"
+// }
+// console.log(color);
+
+// let age = 16;
+// if (age >= 18){
+//   console.log("vote")
+// }else {
+//   console.log("not vote")
+// }
+// let num = 1;
+// if (num% 2 === 0){
+//   console.log("even")
+// }else{
+//   console.log("odd")
+// }
+
+let mode = "dark";
+let color;
+
+if (mode === "dark") {
+  color = "black";
+} else if  (mode === "blue") {
+  color = "blue";
+} else if (mode === "red") {
+   color = "red"
+} else {
+  color = "white"
+}
+console.log(color);
+if(mode === "dark"){
+   console.log(mode)
+
+}
+
+//Ternary operators
+// conditon?true output : false output
+
+let age = 25;
+let result = age >= 18 ? "adult": "not adult"
+console.log(result); // simpler, compact if-else
 
 
+let num = prompt("Enter a number");
 
+if (num% 5 === 0){
+  console.log("mutiple of 5")
+} else {
+  console.log("not multiple of 5")
+};
 
-
+let score = prompt("Enter your number(0-100):");
+let grade;
+if (score >= 90 && score <= 100){
+  grade = "A"
+} else if (score >= 70 && score <= 89) {
+  grade = "B"
+} else if(score >= 60 && score <= 69) {
+  grade = "C"    
+} else if (score >= 50 && score <= 59) {
+  grade = "D"
+} else if (score >= 0 && score <= 49) {
+   grade = "E "
+  };
+console.log(grade);
