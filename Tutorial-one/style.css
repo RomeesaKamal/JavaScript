@@ -1,8 +1,19 @@
-.box{
-    height: 100px;
-    width: 100px;
-    border: 2px solid black;
-    margin: 5px;
-    text-align: center;
-    background-color: aquamarine;
-}
+/* .box{
+    height: 200px;
+    width: 200px;
+    border: 6px solid rgb(28, 136, 0);
+    margin: 20px;
+    background-color: rgb(19, 97, 71);
+} */
+ .para{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(33, 33, 158);
+    background-color: rgb(218, 33, 94);
+ }
+ .newClass{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(78, 14, 30);
+    background-color: rgb(129, 106, 114);
+ }

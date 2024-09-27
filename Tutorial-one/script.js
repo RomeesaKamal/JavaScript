@@ -36,3 +36,31 @@
 // div.style.backgroundColor = "yellow";
 // div.style.fontSize = "20px";
 // div.innerText = "Hello!";
+
+// let newBtn = document.createElement("Button");
+// newBtn.innerText = "Click me!"
+// console.log(newBtn);
+// let div = document.querySelector("div");
+// div.append(newBtn);
+// div.prepend(newBtn);
+// div.before(newBtn);
+// // div.after(newBtn);
+// newBtn.style.margin = "10px" 
+
+// let newHeading = document.createElement("h1")
+// newHeading.innerHTML = "<i>Hey, I am new!</i>"
+// let body = document.querySelector("body").prepend(newHeading);
+// console.log(newHeading);
+// let h2 = document.querySelector("h2")
+// h2.remove();
+
+let newBtn = document.createElement("button");
+newBtn.innerText = "Click me!"
+let body = document.querySelector("body").prepend(newBtn);
+newBtn.style.backgroundColor = "red";
+newBtn.style.color = "white";
+let para = document.querySelector("p");
+para.classList.add("newClass");
+
+
+
