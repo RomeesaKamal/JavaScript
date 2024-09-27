@@ -142,22 +142,36 @@
 // console.log(result)
 
 
-let n = prompt("Enter the number :")
-let arr = [];
-for(i = 1; i <= n; i++){
-    arr[i - 1] = i;
-}
-console.log(arr);
+// let n = prompt("Enter the number :")
+// let arr = [];
+// for(i = 1; i <= n; i++){
+//     arr[i - 1] = i;
+// }
+// console.log(arr);
 
-let sum = arr.reduce((pre, curr) => {
-    return pre + curr;
+// let sum = arr.reduce((pre, curr) => {
+//     return pre + curr;
     
-})
-console.log(sum);
+// })
+// console.log(sum);
 
 
-let mul = arr.reduce((pre, curr) => {
-    return pre * curr;
+// let mul = arr.reduce((pre, curr) => {
+//     return pre * curr;
     
-})
-console.log(mul);
+// })
+// console.log(mul);
+// const fib = [0,1]
+function fibonacci(n) {
+    const arr =[0,1];
+    for(i=2; i<=n;i++){
+      fib[i] = fib[i-1] + fib[i-2] ;
+      fib[i] = i;
+    
+    }
+    return fib;
+  }
+  let  oddNum = arr.filter((val) => {
+    return val % 2 === 0;
+  })
+console.log(oddNum);
