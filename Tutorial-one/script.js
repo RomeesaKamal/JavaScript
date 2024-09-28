@@ -54,13 +54,69 @@
 // let h2 = document.querySelector("h2")
 // h2.remove();
 
-let newBtn = document.createElement("button");
-newBtn.innerText = "Click me!"
-let body = document.querySelector("body").prepend(newBtn);
-newBtn.style.backgroundColor = "red";
-newBtn.style.color = "white";
-let para = document.querySelector("p");
-para.classList.add("newClass");
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "Click me!"
+// let body = document.querySelector("body").prepend(newBtn);
+// newBtn.style.backgroundColor = "red";
+// newBtn.style.color = "white";
+// let para = document.querySelector("p");
+// para.classList.add("newClass");
+
+// let Btn = document.querySelector("#Btn");
+// Btn.onclick = () =>{
+//     console.log("Button was clicked");
+//     let a = 26;
+//     a++;
+//     console.log(a);
+// }
+
+// Btn.onclick = (e) => {
+//     console.log(e);
+//     console.log(e.type);
+//     console.log(e.target);
+//     console.log(e.clintX, e.clintY);
+// }
+// Btn.addEventListener("click", () => {
+//     console.log("Btn wa clicked")
+// })
+// // }
+// Btn.addEventListener("click", (evt) => {
+//     console.log("Btn wa clicked - Header1");
+//     console.log(evt);
+
+// })
+// Btn.addEventListener("click", (evt) => {
+//     console.log("Btn wa clicked - Header2");
+// })
+// const Header3 = () => {
+//     console.log("Btn wa clicked - Header3")
+// }
+// Btn.addEventListener("click", Header3);
+// Btn.addEventListener("click", (evt) => {
+//     console.log("Btn wa clicked - Header4");
+// })
+// Btn.removeEventListener("click", Header3)
 
 
+// let Div = document.querySelector("div");
+// Div.onmouseover = () => {
+//     console.log("You are inside div");
+// }
 
+let mode = document.querySelector("#mode");
+let body = document.querySelector("body")
+let currMode = "light"
+
+mode.addEventListener("click", () =>{
+    console.log("You are trying to chnage your mode");
+    if(currMode === "light"){
+        currMode = "dark"
+        body.classList.add("dark")
+        body.classList.remove("light")
+    }else{
+        currMode = "light"
+    body.classList.add("light")
+    body.classList.remove("dark")
+    }
+console.log(currMode)
+})

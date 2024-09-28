@@ -5,7 +5,7 @@
     margin: 20px;
     background-color: rgb(19, 97, 71);
 } */
- .para{
+ /* .para{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(33, 33, 158);
@@ -16,4 +16,26 @@
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(78, 14, 30);
     background-color: rgb(129, 106, 114);
+ } */
+  /* div{
+   border: 2px solid red;
+   border-radius: 4px;
+   margin: 20px;
+   padding: 20px;
+   width: 100px;
+   font-size: 15px;
+   font-weight: 800;
+   background-color: yellow;
+   color: blue;
+
+ } */
+
+ .dark{
+   background-color: black;
+   color: white;
+ }
+
+ .light{
+   background-color:white;
+   color: black;
  }
